@@ -8,5 +8,7 @@ public class Main {
         System.out.println(a + " - " + b + " = " + Operation.soustraction(a, b));
         System.out.println(a + "+" + b + "=" + Operation.addition(a, b));
         System.out.println(a + "/" + b + "=" + Operation.division(a, b));
+        int zero = 0;
+        System.out.println(a + "/" + zero + "=" + Operation.division(a, zero));
     }
 }
